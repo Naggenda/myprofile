@@ -17,7 +17,7 @@ const home = () => {
             technologies and work in both team and self directed settings. Feel
             free to take a look at my latest projects in portfolio section.
           </p>
-          <button className="btn">More About Me &#8594;</button>
+          <button className="btn">More About Me <span className="arrow">&#8594;</span></button>
         </div>
       </div>
     </div>

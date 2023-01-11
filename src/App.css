@@ -28,8 +28,15 @@
 
 .btn {
   border-radius: 20px;
-  border: none;
+  border: 1px solid tomato;
   padding: 10px;
+  font-weight: 800;
+  background: inherit;
+  color: white;
+}
+
+.btn:hover{
+  background: tomato;
 }
 
 @media screen and (max-width: 770px) {
