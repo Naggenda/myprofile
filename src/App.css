@@ -1,0 +1,56 @@
+.intro {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  align-self: item;
+  height: 100vh;
+}
+
+.title {
+  color: tomato;
+  text-transform: uppercase;
+  font-family: inherit;
+}
+
+.title-job {
+  text-transform: uppercase;
+}
+
+.profile {
+  width: 35%;
+  text-align: center;
+}
+
+.desc {
+  width: 55%;
+}
+
+.btn {
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+}
+
+@media screen and (max-width: 770px) {
+  .intro {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    background: rgb(1, 1, 29);
+  }
+
+  .profile {
+    /* width: 100%; */
+    width: 45%;
+    height: 50%;
+    align-self: center;
+    border-radius: 50%;
+    background: white;
+  }
+
+  .desc {
+    width: 100%;
+  }
+}
