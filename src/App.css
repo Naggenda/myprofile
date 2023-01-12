@@ -1,4 +1,5 @@
 .intro {
+  align-items: center;
   padding: 20px 30px;
   display: flex;
   justify-content: space-between;
@@ -32,11 +33,11 @@
   padding: 10px;
   font-weight: 800;
   background: inherit;
-  color: white;
 }
 
 .btn:hover{
   background: tomato;
+  color: white;
 }
 
 @media screen and (max-width: 770px) {
@@ -59,5 +60,8 @@
 
   .desc {
     width: 100%;
+  }
+  .btn{
+    color: white;
   }
 }
