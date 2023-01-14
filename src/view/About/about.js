@@ -1,11 +1,18 @@
-import React from 'react'
+import React from "react";
+import Cv from "./cv";
+import Experience from "./Experience";
+
 
 const about = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+  return (
+    <div className="about-page">
+      <h1 className="headTitle">About <span className="title">Me</span></h1>
+      <div className="personal-details">
+        <Cv />
+        <Experience />
+      </div>
+    </div>
+  );
+};
 
-export default about
+export default about;

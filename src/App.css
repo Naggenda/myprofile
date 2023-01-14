@@ -40,6 +40,51 @@
   color: white;
 }
 
+/* about page */
+
+.about-page{
+  padding: 30px 40px;
+}
+
+.headTitle{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.personal-details{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.experience{
+  width: 50%;
+}
+
+.cv-details{
+  display: flex;
+  justify-content: space-between;
+}
+
+ .details{
+   width: 50%
+ }
+
+ .details p{
+   color: gray;
+ }
+
+ .details .colr{
+   color: white;
+ }
+
+ .card{
+   border: 1px solid gray;
+   border-radius: 4px;
+   padding: 10px;
+   width: 150px;
+   margin-bottom: 15px;
+ }
 @media screen and (max-width: 770px) {
   .intro {
     flex-direction: column;
@@ -50,7 +95,6 @@
   }
 
   .profile {
-    /* width: 100%; */
     width: 45%;
     height: 50%;
     align-self: center;
@@ -63,5 +107,19 @@
   }
   .btn{
     color: white;
+  }
+
+  .about-page{
+    background: rgb(1, 1, 29);
+    padding: 30px 15px;
+    color: white;
+  }
+
+  .personal-details{
+    flex-direction: column;
+  }
+
+  .experience{
+    width: 100%;
   }
 }
