@@ -1,3 +1,8 @@
+.navbar{
+  position: fixed;
+  left: 25vw;
+}
+
 .intro {
   align-items: center;
   padding: 20px 30px;
@@ -35,6 +40,10 @@
   background: inherit;
 }
 
+.nav{
+  margin: 30px;
+}
+
 .btn:hover{
   background: tomato;
   color: white;
@@ -44,6 +53,7 @@
 
 .about-page{
   padding: 30px 40px;
+  align-items: center;
 }
 
 .headTitle{
@@ -111,7 +121,7 @@
 
   .about-page{
     background: rgb(1, 1, 29);
-    padding: 30px 15px;
+    padding: 60px 15px 30px;
     color: white;
   }
 
@@ -121,5 +131,13 @@
 
   .experience{
     width: 100%;
+  }
+
+  .navbar{
+    left: 0;
+  }
+
+  .nav{
+    margin: 20px; 
   }
 }
